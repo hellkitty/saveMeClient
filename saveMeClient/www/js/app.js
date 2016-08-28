@@ -45,7 +45,7 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
     views: {
       'tab-pulse': {
         templateUrl: 'templates/tab-pulse.html',
-        controller: 'PulseCtrl'
+        controller: 'GraphCtrl'
       }
     }
   })

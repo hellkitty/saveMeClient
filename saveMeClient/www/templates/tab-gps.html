@@ -1,10 +1,12 @@
 <ion-view view-title="위치정보">
   <ion-content class="padding">
-    <h2>위치</h2>
+    <h2></h2>
     <p></p>
-		<!-- <div id="map" style="width:500px;height:400px;"></div> -->
+    
+    		
+		<div id="map" data-ng-init="getLocation()"></div>
 		
-		<div class="card" data-ng-init="getLocation()">
+<!-- 		<div class="card" data-ng-init="getLocation()">
 			<div class="item item-divider">
 				현재 위치정보
 			</div>
@@ -18,14 +20,14 @@
 			<div class="item" ng-show="errorMsg">
 				<p>{{errorMsg}}</p>
 			</div>
-		</div>
+		</div> -->
 
-<!-- 		<div class="padding">
+ 		<div class="padding">
 			<button class="button button-block button-positive" ng-click="getLocation()">
 				현재 위치탐색
 			</button>
 
-		</div> -->
+		</div>
 		
   </ion-content>
 </ion-view>
